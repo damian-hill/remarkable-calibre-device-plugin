@@ -1,0 +1,24 @@
+# Build artifacts
+*.zip
+out/
+release/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI assistants
+CLAUDE.md
+.claude/

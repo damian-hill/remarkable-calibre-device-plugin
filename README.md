@@ -1,5 +1,5 @@
 
-# remarkable-calibre-usb-device
+# remarkable-calibre-device-plugin
 
 A Calibre [Device Plugin](https://manual.calibre-ebook.com/plugins.html#module-calibre.devices.interface) for reMarkable tablets.
 
@@ -65,6 +65,7 @@ On your reMarkable, create a folder called **Calibre** (or any name you like). T
 | **Margin** | Page margin in points (model defaults: 36pt for rM2/Pro, 18pt for Move) |
 | **Font size** | Default font size in points (model defaults: 18/20/14pt) |
 | **Font** | Serif font family for body text (leave empty for system default) |
+| **Embed all fonts** | Embed all fonts in PDF output (slower, higher fidelity). Disable for faster conversion. |
 | **Target folder** | Name of an existing folder on your reMarkable (e.g., "Calibre") |
 | **Inject cover** | Add a cover page to EPUBs that are missing one |
 
